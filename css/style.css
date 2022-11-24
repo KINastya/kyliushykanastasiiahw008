@@ -1,0 +1,55 @@
+.header {
+    background-color: #eeeff1;
+    padding-left: 20.78%;
+}
+
+.menu {
+    width: 49.87%;
+    justify-content: space-between;
+    padding-top: 4.16%;
+}
+
+.menu__item {
+    display: inline-block;
+    margin-right: 6.87%;
+}
+
+.menu__link {
+    color: black;
+}
+
+.menu__link--spesial {
+    color: #34547A;
+}
+
+.subject__title {
+    margin-top: 13.4%;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.subject__item {
+    width: 40.17%;
+    padding-left: 0.05%;
+    margin-top: 3.12%;
+    color: #727272;
+    line-height: 26px;
+    text-align: left;
+}
+
+.subject__footer {
+    margin-top: 3.4%;
+    padding-bottom: 7.3%;
+}
+
+.subject__button {
+    width: 18.5%;
+    padding: 1.56% 0 1.81% 0;
+    background-color: #34547A;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.btn-link {
+    color: white;
+}
