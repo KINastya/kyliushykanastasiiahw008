@@ -4,7 +4,7 @@
 }
 
 .menu {
-    width: 49.87%;
+    width: 50.87%;
     justify-content: space-between;
     padding-top: 4.16%;
 }
@@ -33,7 +33,7 @@
     padding-left: 0.05%;
     margin-top: 3.12%;
     color: #727272;
-    line-height: 26px;
+    line-height: 1.63rem;
     text-align: left;
 }
 
@@ -52,4 +52,25 @@
 
 .btn-link {
     color: white;
+}
+
+.section {
+    justify-content: center;
+    text-align: center;
+}
+
+.section__header {
+    padding-top: 6.77%;
+}
+
+.section__heading {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.section__item {
+    line-height: 1.63rem;
+    color: #727272;
+    width: 30.1%;
+    margin: 2.61% 0 5.06% 34.94%;
 }
