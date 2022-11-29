@@ -1,76 +1,147 @@
 .header {
-    background-color: #eeeff1;
-    padding-left: 20.78%;
+    background-color: #EEEFF1;/* для заднего фона */
+    ;
+}
+.container {
+    max-width: 57.81%;/* максимальная ширина */
+    margin: 0 auto;/* отступы по бокам авто и сверху и снизу 0 */
 }
 
 .menu {
-    width: 50.87%;
-    justify-content: space-between;
-    padding-top: 4.16%;
+    width: 58.84%;/* ширина */
+    padding-top: 4.16%;/* отступ вверх */
 }
 
 .menu__item {
-    display: inline-block;
-    margin-right: 6.87%;
+    margin-right: 3.78%;/* отступ вправо */
+}
+
+.menu__item,
+.section__items {
+    display: inline-block;/* расположения в линию */
 }
 
 .menu__link {
-    color: black;
+    color: black;/* цвет текста */
 }
 
 .menu__link--spesial {
-    color: #34547A;
+    color: #34547A;/* цвет текста */
+}
+
+.subject__item,
+.section__item {
+    color: #727272;/* цвет текста */
+}
+
+.btn-link,
+.section__items,
+.footer__items {
+    color: white;/* цвет текста */
 }
 
 .subject__title {
-    margin-top: 13.4%;
-    font-size: 3rem;
-    font-weight: 500;
+    margin-top: 14.6%;/* отступ вправо */
+    font-size: 3rem;/* размер шрифта */
+}
+
+.subject__title,
+.section__heading,
+.link-title,
+.footer__item-first {
+    font-weight: 500;/* толщина букв */
+}
+
+.subject__item,
+.section__item {
+    line-height: 1.63rem;/* висота текста */
 }
 
 .subject__item {
-    width: 40.17%;
-    padding-left: 0.05%;
-    margin-top: 3.12%;
-    color: #727272;
-    line-height: 1.63rem;
-    text-align: left;
+    width: 48.7%;/* ширина элемента */
+    padding-left: 0.05%;/* отступ влево */
+    margin-top: 5.4%;/* отступ вверх */
+    text-align: left;/* позиционирование слева */
 }
 
 .subject__footer {
-    margin-top: 3.4%;
-    padding-bottom: 7.3%;
+    margin-top: 5.8%;/* отступ вверх */
+    padding-bottom: 7.3%;/* отступ вниз */
+}
+
+.section__body,
+.footer__wrap,
+.subject__button {
+    background-color: #34547A;/* задний фон */
 }
 
 .subject__button {
-    width: 18.5%;
-    padding: 1.56% 0 1.81% 0;
-    background-color: #34547A;
-    text-align: center;
-    letter-spacing: 0.1rem;
+    width: 20.27%;/* ширина */  
+    padding: 1.7% 0 1.81% 0;/* отступы */
+    letter-spacing: 0.1rem;/* отступы меду буквами */
 }
 
-.btn-link {
-    color: white;
+.subject__button,
+.section__header,
+.section__footer-heading {
+    text-align: center;/* позиционирование посередине */
 }
 
-.section {
-    justify-content: center;
-    text-align: center;
-}
-
-.section__header {
-    padding-top: 6.77%;
+.section__header,
+.section__footer-heading {
+    padding-top: 10.36%;/* отступ вверх */
 }
 
 .section__heading {
-    font-size: 2rem;
-    font-weight: 500;
+    font-size: 2rem;/* размер шрифта */
 }
 
 .section__item {
-    line-height: 1.63rem;
-    color: #727272;
-    width: 30.1%;
-    margin: 2.61% 0 5.06% 34.94%;
+    width: 58.65%;/* ширина */
+    margin: 2.61% 0 0 20.66%;/* отступы */
+}
+
+.section__body {
+    margin-top: 5.06%;/* отступы */
+}
+
+.section__list,
+.section__items {
+    display: flex;/* обтикание текста */
+}
+
+.section__items {
+    width: 8.7%;/* ширина */
+    margin: 5.2% 7.9% 5.2% 0;/* отступы */
+}
+
+.list-content {
+    margin-left: 14.18%;/* отступы */
+}
+
+.link-title {
+    margin-bottom: 7.09%;/* отступы */
+}
+
+.link-title,
+.footer__item-first {
+    font-size: 1.31rem;/* размер шрифта */
+}
+
+.section__video-wrap {
+    margin: 2.9% 0 5.21% 0;/* отступы */
+}
+
+.section__video {
+    width: 100%;/* ширина */
+    height: 31.25%;/* висота */
+}
+
+.footer__item-first {
+    padding-top: 2.6%;/* отступы */
+}
+
+.footer__item {
+    font-size: 0.81rem;
+    padding: 1.04% 0 2.6% 0;/* отступы */
 }
